@@ -1,0 +1,64 @@
+<!DOCTYPE html> 
+<html>
+<head>
+
+<link rel="icon" href="./media/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" media ="only screen and (min-device-width : 769px)"
+href="./css/widescreen.css" type="text/css" />
+<link rel="stylesheet" media ="only screen and (max-device-width : 768px) and (min-device-width : 481px)" href="./css/tablet.css" type="text/css" />
+<link rel="stylesheet" media ="only screen and (max-device-width : 480px)" href="./css/smartphone.css" type="text/css" />
+<meta http-equiv="Content-type" content="text/html" charset="utf-8">
+<title>Proyecto web</title>
+
+</head>
+
+<body>
+<div id="page-wrap">
+<header class = "main" id="h1">
+<h1> Bienvenidos a la página de Rafael Comendador y José San Juan</h1>
+</header>
+
+<TABLE BORDER>
+<TR id = 'fila1'><TD id='celda1'><h3>Explicación en texto</h3>
+<p>
+Esto es un proyecto para la asignatura Software de comunicaciones. <p>
+<div id="texto">
+En él practicamos el diseño y la implementación de una página web muy sencilla que debe constar de los siguientes elementos:<p>
+-Esta misma explicación en texto<p>
+-Un video explicativo de nosotros mismos.<p>
+-Un mapa de google con la geolocalización en el que se puede consultar la distancia entre dos coordenadas sucesivas que le introduzcamos.<p>
+<p>
+En cuanto a realización, se utiliza jQuery para acceder y modificar el DOM.<p>
+El mapa de google se inserta en un iFrame a modo de mash-up. Las coordenadas se almacenan mediante el localStorage de HTML5.<p>
+Finalmente, hemos intentado buscar un diseño agradable y responsivo para adaptarse a distintas pantallas.
+</div></TR>
+<TR><TD id ='celda2'>
+<h3>Explicación en video</h3>
+
+    <video id= 'video'  width="320" 
+            height="240"  poster="./media/poster.png"
+            controls 
+            preload >
+  <source src="./media/explicacionhd.webm" type="video/webm">
+  <source src="./media/explicacion.webm" type="video/webm">
+  <source src="./media/explicacion.mp4" type="video/mp4">
+  <source src="./media/explicacion.ogg" type="video/ogg">
+  <source src="./media/explicacion.mov">
+  Su navegador no puede reproducir vídeo.
+
+    </video>
+  <p>
+    Rafael y José cuentan el proceso de realización de la página
+</TD></TR></TABLE>
+
+<p>
+
+<iframe src="./map.html" scrolling="no" width="800" height="720">
+</iframe>
+ <footer>
+Proyecto de la asignatura de software de comunicaciones 2013.<p>
+Creado por Rafael Comendador y José San Juan Pérez.
+</footer>
+</div>
+</body>
+</html>

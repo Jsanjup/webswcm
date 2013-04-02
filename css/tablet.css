@@ -1,0 +1,116 @@
+#page-wrap{ height: 95%;
+}
+BODY
+{	font: 10pt  ;
+	
+	text-align: center;
+	outline-color: #f2f1f0;
+	background-color: #68c06f;
+	color: #235500; 
+	cursor: default;
+	outline: inherit #714e35 ridge;
+}
+H1
+{
+	font: normal bold 200%  "New Century Schoolbook", serif;
+	text-shadow: 1px 2px #206721;
+	-webkit-border-radius: 1em;
+	-moz-border-radius: 1em;
+	border-radius: 1em;
+	border-style: outset;
+	line-height: 1.0em;
+	border-width: 5px;
+	color: #083500;
+	background-color: #74ba81;}
+TABLE
+{
+	table-layout: fixed;
+	border: ridge #10530F;
+	min-width: 480px;
+	height: 70%;
+	width: 98%;
+	font-size: 120%;
+	margin: auto;
+	outline-color: #611A1A;
+	background-color: #83C985;
+	border-spacing: 15px 15px;
+	-webkit-border-radius: 1em;
+	-moz-border-radius: 1em;
+	border-radius: 1em;
+	border-style: ridge;
+	line-height: 1.0em;
+	border-width: 5px;
+	color: #083500;
+}
+#fila1
+{
+	border: ridge #10530F;
+}
+#celda1
+{
+	border-spacing: 15px 15px;
+	border: ridge #10530F;
+	-webkit-border-radius: 1em;
+	-moz-border-radius: 1em;
+	border-radius: 1em;
+	border-style: ridge;
+	line-height: 1.0em;
+	border-width: 5px;
+	color: #083500;
+	text-align: center; }
+
+#texto{
+	text-align: left;
+	font-family: Georgia, serif;
+	font-size: 90%;
+	color: #2e402e;
+	height:70%;
+	width: 90%;
+	margin: +5%;}
+H3
+{
+	background-color: #4B9348;
+	padding: 2pt;
+	font-weight: bold;
+	font-size: 150%;
+	line-height: 140%;
+	font-family: Arial;
+	text-align: center;
+	color: #3d543f;
+	-webkit-border-radius: 1em;
+	-moz-border-radius: 1em;
+	border-radius: 1em;
+	position: relative;
+	width: 80%;
+	left: +10%;
+	right: -10%; }
+#celda2
+{
+	border: hidden;
+	text-align: center;
+	height:60%;
+	padding: 2%;  }
+
+#video{ width: 90%;
+	min-height: 360px;
+	height:75%;
+}
+IFRAME
+{
+	height: 640px;
+	min-width: 500px;
+	width: 98%;
+}
+footer{
+
+	font: normal bold 110%  "New Century Schoolbook", serif;
+	-webkit-border-radius: 1em;
+	-moz-border-radius: 1em;
+	border-radius: 1em;
+	border-style: inset;
+	border-width: 1px;
+	color: #083500;
+	background-color: #79bf86;
+	visibility: true;
+	height: 5%;
+}
